@@ -1,4 +1,5 @@
 require('dotenv').config();
+
 const key = process.env.SECRET_KEY;
 const axios = require('axios');
 
