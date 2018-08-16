@@ -1,12 +1,6 @@
 require('dotenv').config();
-
 const key = process.env.SECRET_KEY;
-
-const express = require('express');
 const axios = require('axios');
-
-const app = express();
-const port = 3000;
 
 let eventId = 0;
 axios.get(`https://api.seatgeek.com/2/events/?client_id=${key}&q=boston+celtics`)
@@ -35,8 +29,3 @@ axios.get(`https://api.seatgeek.com/2/events/?client_id=${key}&q=boston+celtics`
               }
         });
   });
-
-
-app.listen(port, () => {
-  console.log(`Server is running on port ${port}.`);
-});
