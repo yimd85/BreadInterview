@@ -42,3 +42,12 @@ axios.get(`https://api.seatgeek.com/2/events/?client_id=${key}&q=boston+celtics`
 ```
 
 * A lesson on scoping (question 3)
+
+
+
+### Breakdown
+
+To start up the project
+In our terminal cd into the directory and type in the following commands
+1. npm install
+2. node
