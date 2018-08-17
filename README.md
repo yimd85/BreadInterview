@@ -45,9 +45,7 @@ axios.get(`https://api.seatgeek.com/2/events/?client_id=${key}&q=boston+celtics`
 
 
 
-### Breakdown
-
-To start up the project
+### To start up the project (need keys)
 In our terminal cd into the directory and type in the following commands
 1. npm install
 2. node
